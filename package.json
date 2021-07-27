@@ -4,7 +4,7 @@
   "description": "",
   "main": "functions.js",
   "scripts": {
-    "dev" : "nodemon src/"
+    "dev": "nodemon src/"
   },
   "keywords": [],
   "author": "",
