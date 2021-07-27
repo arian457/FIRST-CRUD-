@@ -1,0 +1,24 @@
+<div class='container p-4'>
+   <div class = "row">
+      <div class = "card border-secondary text-secondary mx-auto">
+         <div class ="card-body">
+             <form action ='/friends/add' method ='POST'>
+                 <div class="input-group mb-3">
+                     <input type="text" class='form-control' name="name" placeholder="Name" autofocus>
+                 </div>
+                 <div class="input-group mb-3">
+                     <input type="url" name ="url" class ='form-control' placeholder="Social Media">
+                 </div>
+                 <div class="input-group mb-3">
+                     <textarea name='descripcion' rows = "2" class='form-control' placeholder="description"> </textarea>
+                 </div>
+                  <div class="input-group mb-3">
+                      <button class='btn btn-success btn-block'>
+                          Guardar
+                      </button>
+                  </div>  
+             </form>
+         </div>
+      </div>
+   </div>
+</div>
